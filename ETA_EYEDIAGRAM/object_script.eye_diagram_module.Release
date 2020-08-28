@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\udpsok.o
+./release\qcustomplot.o
+./release\queue.o
+./release\eyediagram.o
+./release\matrix_engin.o
+./release\sinc_filters.o
+./release\eye_engine.o
+./release\moc_udpsok.o
+./release\moc_qcustomplot.o
+./release\moc_eyediagram.o
+./release\moc_eye_engine.o
+);
