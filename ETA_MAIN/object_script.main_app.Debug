@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\udp_socket.o
+./debug\udpqueue.o
+./debug\queue.o
+./debug\dialog.o
+./debug\moc_mainwindow.o
+./debug\moc_udp_socket.o
+./debug\moc_udpqueue.o
+./debug\moc_dialog.o
+);

@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\udp_socket.o
+./release\udpqueue.o
+./release\queue.o
+./release\dialog.o
+./release\moc_mainwindow.o
+./release\moc_udp_socket.o
+./release\moc_udpqueue.o
+./release\moc_dialog.o
+);

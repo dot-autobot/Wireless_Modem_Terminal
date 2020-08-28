@@ -1,0 +1,32 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2017-05-02T12:06:40
+# author : nirav parmar
+#-------------------------------------------------
+
+QT         +=   core gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
+
+LIBS       +=   -lpthread
+QT         +=   network
+QT         +=   testlib
+TARGET      =   main_app
+TEMPLATE    =   app
+
+
+SOURCES  +=  main.cpp\
+             mainwindow.cpp \
+             udp_socket.cpp \
+             udpqueue.cpp \
+             queue.cpp \
+    dialog.cpp
+
+HEADERS  +=  mainwindow.h \
+             udp_socket.h \
+             udpqueue.h \
+             queue.h\
+             header.h \
+     dialog.h
+
+FORMS    +=  mainwindow.ui \
+    dialog.ui
